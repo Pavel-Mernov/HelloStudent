@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/section_3_a1_string"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pannel_blue"
+            android:orientation="vertical"
+            android:paddingVertical="5dp">
+
+            <TextView
+                android:id="@+id/choose_step3_sect3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_a1_step1_sect3_1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+
+            <TextView
+                android:id="@+id/irreg_verbs_step3_sect3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_a1_step1_sect3_2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/choose_step3_sect3"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/only"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/irreg_verbs_step3_sect3"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/pannel_blue"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+                        <TextView
+                            android:id="@+id/can_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/can"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/can_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/climb_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/climb"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/climb_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/came_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/came"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/came_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:src="@drawable/img_tick"
+                            android:background="@drawable/button_green"
+                            android:visibility="invisible"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/were_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/were"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/were_img_a1_step1_correct"
+                            android:src="@drawable/img_tick"
+                            android:background="@drawable/button_green"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/where_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/where"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/where_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/weer_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/weer"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/weer_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/cold_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/cold_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/cloud_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cloud"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/cloud_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/could_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/could"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/could_img_a1_step1_correct"
+                            android:src="@drawable/img_tick"
+                            android:background="@drawable/button_green"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/head_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/head"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/head_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/hand_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hand"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/hand_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/had_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/had"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/had_img_a1_step1_correct"
+                            android:src="@drawable/img_tick"
+                            android:background="@drawable/button_green"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/read_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/read"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/read_img_a1_step1_correct"
+                            android:src="@drawable/img_tick"
+                            android:background="@drawable/button_green"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/reed_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reed"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/reed_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/was_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/was"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/was_img_a1_step1_correct"
+                            android:src="@drawable/img_tick"
+                            android:background="@drawable/button_green"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/talked_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/talked"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/talked_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/tidy_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tidy"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/tidy_img_a1_step1_correct"
+                            android:src="@drawable/img_cross"
+                            android:background="@drawable/button_red"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/took_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/took"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/took_img_a1_step1_correct"
+                            android:src="@drawable/img_tick"
+                            android:background="@drawable/button_green"
+                            android:visibility="invisible"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/look_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/look"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/look_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/like_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/like"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/like_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/love_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/love"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/love_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/come_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/come"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/come_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/some_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/some"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/some_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/want_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/want"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/want_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/wait_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wait"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/wait_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/went_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/went"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/went_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/take_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/take"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/take_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/bot_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bot"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/bot_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.4"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/is_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/is"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/is_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/washed_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/washed"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/washed_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/watch_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/watch"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/watch_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/go_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/go"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/go_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/sow_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sow"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/sow_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/buy_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/buy"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/buy_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/bike_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bike"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/bike_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/be_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/be"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/be_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/saw_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/saw"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/saw_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/rode_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rode"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/rode_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/rice_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rice"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/rice_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/sea_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sea"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/sea_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/red_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/red"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/red_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/rat_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rat"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/rat_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/bright_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bright"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/bright_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/bought_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bought"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/bought_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/ride_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ride"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/ride_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/hive_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hive"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/hive_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/live_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/live"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"
+                            tools:ignore="DuplicateIds" />
+
+                        <ImageView
+                            android:id="@+id/live_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/have_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/have"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/have_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/stay_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stay"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/stay_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/start_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/start"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/start_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/smile_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/smile"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/smile_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/see_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/see"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/see_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_green"
+                            android:src="@drawable/img_tick"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/study_text_a1_step1_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/study"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/study_img_a1_step1_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/button_red"
+                            android:src="@drawable/img_cross"
+                            android:visibility="invisible"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btnCheck_a1_step1_sect3"
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_blue"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/layoutCheck"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.5">
+
+                    <TextView
+                        android:id="@+id/textViewCheck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/check"
+                        android:textColor="@color/colorButton"
+                        android:textSize="35sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/textViewWhat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:text="@string/string_what"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="22sp"
+                        android:visibility="invisible"></TextView>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btnRestart_a1_step1_sect3"
+                android:layout_width="177dp"
+                android:layout_height="100dp"
+                android:background="@drawable/button_blue"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/restart"
+                        android:textColor="@color/colorButton"
+                        android:textSize="35sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"></TextView>
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp"></Space>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnExit_a1_step1_sect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Exit"
+                android:textColor="@color/colorButton"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/section_4_a1_string"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/pannel_blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_a1_step1_sect3_1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_correct_verb"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/pannel_blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="90dp"
+                    android:text="@string/I_ve"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="37dp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_bracket_open"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="37dp"></TextView>
+
+                <TextView
+                    android:id="@+id/btnWrong1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drew"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="37dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comma"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="37dp"></TextView>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"></Space>
+
+                <TextView
+                    android:id="@+id/btnWrong2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rode"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="37dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comma"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="37dp"></TextView>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"></Space>
+
+                <TextView
+                    android:id="@+id/btnCorrect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/broken"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="37dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_bracket_close"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="37dp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgWrong1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:visibility="invisible"
+                    android:src="@drawable/img_cross"
+                    android:background="@drawable/button_red"/>
+
+                <ImageView
+                    android:id="@+id/imgWrong2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:background="@drawable/button_red"
+                    android:src="@drawable/img_cross"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/imgCorrect"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:visibility="invisible"
+                    android:src="@drawable/img_tick"
+                    android:background="@drawable/button_green"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/my_bike"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="37dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnRestart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_blue"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:text="@string/restart"
+            android:textColor="@color/colorButton"
+            android:textSize="35dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:id="@+id/btnPrevious"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_blue"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/previous_arrows"
+                    android:textColor="@color/colorButton"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/previous"
+                    android:textColor="@color/colorButton"
+                    android:textSize="28dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnNext"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_blue"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="7dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:textColor="@color/colorButton"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/next_arrows"
+                    android:textColor="@color/colorButton"
+                    android:textSize="33dp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_blue"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/Exit"
+            android:textColor="@color/colorButton"
+            android:textSize="35dp" />
+    </LinearLayout>
+</LinearLayout>

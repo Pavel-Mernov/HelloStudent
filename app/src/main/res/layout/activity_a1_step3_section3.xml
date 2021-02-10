@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/section_3_a1_string"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pannel_blue"
+            android:orientation="vertical"
+            android:paddingVertical="5dp">
+
+            <TextView
+                android:id="@+id/choose_step3_sect3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_a1_step1_sect3_1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+
+            <TextView
+                android:id="@+id/irreg_verbs_step3_sect3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_a1_step1_sect3_2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/choose_step3_sect3"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/only"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/irreg_verbs_step3_sect3"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/pannel_blue"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+                        <TextView
+                            android:id="@+id/text_sea_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sea"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_sea_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_say_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/say"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_say_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_slow_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/slow"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_slow_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_see_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/see"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_see_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_slim_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/slim"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_slim_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_swim_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/swim"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_swim_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_stay_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stay"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_stay_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_said_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/said"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_said_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_talk_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/talk"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_talk_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_tell_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tell"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_tell_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.4"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_live_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/live"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_live_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_thought_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/thought"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_thought_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_tidy_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tidy"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_tidy_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.45"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_clear_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/clear"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_clear_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_draw_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/draw"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_draw_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_love_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/love"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_love_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.45"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_travel_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/travel"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_travel_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_leave_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/leave"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_leave_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_right_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/right"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_right_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_write_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/write"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_write_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_left_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/left"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_left_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_last_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/last"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_last_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_move_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/move"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_move_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_felt_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/felt"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_felt_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_work_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/work"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_work_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_drew_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drew"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_drew_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_walk_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/walk"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_walk_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_want_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/want"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_want_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_broke_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/broke"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_broke_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_think_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/think"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_think_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_fill_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fill"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_fill_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_feel_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/feel"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_feel_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_paint_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/paint"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_paint_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_met_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/met"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_met_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_need_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/need"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_need_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_read_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/read"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_read_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_drove_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/drove"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_drove_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_break_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/string_break"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_break_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_ask_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ask"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_ask_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_put_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/put"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_put_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_like_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/like"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_like_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_turn_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/turn"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_turn_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_know_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/know"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_know_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_listen_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/listen"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_listen_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_call_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/call"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_call_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_could_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/could"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_could_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            tools:ignore="DuplicateIds"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_arrive_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/arrive"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_arrive_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_fly_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fly"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_fly_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_try_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/string_try"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_try_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_cry_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cry"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_cry_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_crew_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/crew"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_crew_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_clean_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/clean"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_clean_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_knew_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/knew"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_knew_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_hate_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hate"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_hate_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_went_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/went"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_went_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_enjoy_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enjoy"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_enjoy_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_run_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/run"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_run_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_jump_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jump"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_jump_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_laugh_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/laugh"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_laugh_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/text_buy_a1_step3_section3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/buy"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="25sp"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_a1_step3_buy_correct"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"></ImageView>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"></Space>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnCheck"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_blue"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/textViewCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check"
+                    android:textColor="@color/colorButton"
+                    android:textSize="35dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewWhat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="@string/string_what"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="22dp"
+                    android:visibility="invisible"
+                    android:enabled="false"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnRestart"
+            android:layout_width="177dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_blue"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/restart"
+                    android:textColor="@color/colorButton"
+                    android:textSize="35dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp"></Space>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnExit_a1_step3_sect3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Exit"
+                android:textColor="@color/colorButton"
+                android:textSize="35dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

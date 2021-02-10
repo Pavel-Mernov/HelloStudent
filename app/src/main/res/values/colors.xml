@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryGreen">#900BD11C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#3700B3</color>
+    <color name="colorDarkBlue">#3393DC</color>
+    <color name="colorBackground">#6C69D8E4</color>
+    <color name="colorBlue">#B977D5F1</color>
+    <color name="colorButton">#FFFFFF</color>
+    <color name="colorHelloStudent">#80E0E0E0</color>
+    <color name="colorDisabled">#80404040</color>
+    <color name="colorBlack">#404040</color>
+    <color name="colorA1SectionsBackground">#9CD857</color>
+    <color name="colorDarkGreen">#5F9522</color>
+    <color name="colorRed">#50F42B2B</color>
+    <color name="colorLightRed">#95DF9175</color>
+    <color name="colorLightRed2">#60CD6C49</color>
+    <color name="colorDarkRed">#94E31D1D</color>
+    <color name="colorDarkRed2">#930A0A</color>
+    <color name="colorRed2">#E38787</color>
+</resources>

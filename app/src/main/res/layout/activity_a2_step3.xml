@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="498dp"
+        android:background="@drawable/pannel_blue"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_a2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="44sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dot"
+                android:textColor="@color/colorPrimary"
+                android:textSize="44sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step3"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="44sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:id="@+id/btnSection1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_blue"
+                android:padding="12dp"
+                android:text="@string/section_1_a1_string"
+                android:textColor="@color/colorButton"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/btnSection2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue"
+                android:padding="12dp"
+                android:text="@string/section_2_a1_string"
+                android:textColor="@color/colorButton"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/btnSection3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_blue"
+                android:padding="12dp"
+                android:text="@string/section_3_a1_string"
+                android:textColor="@color/colorButton"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/btnExit"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/button_blue"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="7dp"
+                android:text="@string/exit_step"
+                android:textColor="@color/colorButton"
+                android:textSize="28sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
